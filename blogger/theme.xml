@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+<b:include data='blog' name='all-head-content'/>
+<title><data:blog.pageTitle/></title>
+<b:skin><![CDATA[
+:root{--sage:#e9efe6;--forest:#28553b;--text:#24382c}
+*{box-sizing:border-box}body{margin:0;background:#f9f7f1;color:var(--text);font:16px/1.8 'Noto Sans KR','Malgun Gothic',sans-serif}
+a{color:var(--forest)}.blog-head{background:#fff;border-bottom:1px solid #e3e9e1;padding:28px max(22px,calc((100vw - 1000px)/2))}
+.blog-head .logo{font-size:29px;font-weight:800;color:var(--forest);text-decoration:none}.blog-head p{font-size:13px;color:#758176;margin:0}
+.blog-main{width:min(1000px,calc(100% - 36px));margin:70px auto;min-height:55vh;background:#fff;padding:30px;border-radius:12px}
+.post-outer{padding:25px 0;border-bottom:1px solid #e3e9e1}.post-title{font-size:27px;line-height:1.5}.post-body{line-height:2}.post-body img{max-width:100%;height:auto}
+.blog-foot{padding:35px;text-align:center;background:#214e38;color:#dceade;font-size:13px}
+@media(max-width:650px){.blog-main{padding:20px;margin:30px auto}.blog-head{padding:22px}.post-title{font-size:23px}}
+]]></b:skin>
+</head>
+<body>
+<header class='blog-head'><a class='logo' href='/'>✦ 더포레 건강정보 저널</a><p>가족과 환자를 위한 재활·입원·간병 정보</p></header>
+<main class='blog-main'><b:section id='main' class='main' showaddelement='yes'><b:widget id='Blog1' locked='true' title='블로그 게시물' type='Blog' version='2'/></b:section></main>
+<footer class='blog-foot'>© THE FORET · 의료정보는 일반 안내이며 개인별 진료·보험금 지급을 보장하지 않습니다.</footer>
+</body>
+</html>
