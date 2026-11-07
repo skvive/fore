@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fore.lexid.site/sitemap.xml
